@@ -1,0 +1,6 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": { "sourceType": "module" },
+  "root": true,
+  "rules": {}
+}
