@@ -1,6 +1,12 @@
 {
-  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
-  "parserOptions": { "sourceType": "module" },
+  "env": { "node": true },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": { "project": "./tsconfig.json" },
   "root": true,
   "rules": {}
 }
